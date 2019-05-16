@@ -1,5 +1,9 @@
 # SDConfigFile
 
+Lasted Fixes
+This library was modify to be add easly to Eclipse IDE:
+    1. It's was created library.properties file
+
 ## Introduction
 
 SDConfigFile is an Arduino library to read Sketch settings from a configuration file on an SD card.
@@ -25,6 +29,19 @@ To install SDConfigFile on Linux:
 1. cd sketchbook/libraries
 1. git clone https://github.com/bneedhamia/sdconfigfile.git SDConfigFile
 1. restart your Arduino IDE
+
+To install SDConfigFile on Eclipse IDE:
+
+Windows 
+1. cd .ardunocdt/libraries (usually C:\Users\$USER\)
+1. git clone https://github.com/engalexmonteiro/sdconfigfile.git SDConfigFile
+1. restart your Ecipse IDE
+
+Linux
+1. cd .ardunocdt/libraries (usually /home/$USER)
+1. git clone https://github.com/engalexmonteiro/sdconfigfile.git SDConfigFile
+1. restart your Eclipse IDE
+
 
 ## To use
 
